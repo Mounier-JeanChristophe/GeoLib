@@ -1,7 +1,8 @@
 public class Circle {
 
-    private Point centerPoint;
-    private double radius;
+    private final Point centerPoint;
+
+    private final double radius;
 
     public Circle(Point centerPoint, double radius){
         this.centerPoint = centerPoint;
