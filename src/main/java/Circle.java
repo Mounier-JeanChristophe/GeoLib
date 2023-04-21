@@ -14,7 +14,12 @@ public class Circle {
     }
 
     public double getArea() {
-        return Math.pow(Math.PI * radius,2);
+        return Math.PI * Math.pow(radius,2);
     }
 
+    public double getDiameter(){ return 2 * radius;}
+
+    public Point getCenterPoint(){
+        return this.centerPoint;
+    }
 }

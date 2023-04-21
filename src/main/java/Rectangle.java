@@ -9,18 +9,22 @@ public class Rectangle extends Polygon {
 
     @Override
     public double getPerimeter() {
-        double lentgh = points.get(0).getDistance(points.get(1));
-        double witdh = points.get(1).getDistance(points.get(2));
 
-        return (lentgh + witdh) * 2;
+        ArrayList<Double> dist = new ArrayList<>();
+        for(int i = 1; i < 4; i++){
+            dist.add(points.get(0).getDistance(points.get(i)));
+        }
+        dist.sort(Double::compareTo);
+        return (dist.get(0) + dist.get(1)) * 2;
     }
 
     @Override
     public double getArea() {
-        double lentgh = points.get(0).getDistance(points.get(1));
-        double witdh = points.get(1).getDistance(points.get(2));
-
-
-        return (lentgh * witdh);
+        ArrayList<Double> dist = new ArrayList<>();
+        for(int i = 1; i < 4; i++){
+            dist.add(points.get(0).getDistance(points.get(i)));
+        }
+        dist.sort(Double::compareTo);
+        return dist.get(0) * dist.get(1);
     }
 }
