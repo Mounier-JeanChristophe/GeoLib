@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 /**
  * Rectangle class. A class to create a rectangle and process calculations on it.
- * @author Kilian QUITTARD
+ * @author Kilian QUITTARD, JC MOUNIER
  */
 
 public class Rectangle extends Polygon {
@@ -20,22 +20,38 @@ public class Rectangle extends Polygon {
      * @param point3 Shapes2D.Point of the rectangle.
      * @param point4 Shapes2D.Point of the rectangle.
      */
-    public Rectangle(Point point1, Point point2, Point point3, Point point4) throws SameCoordinateException, DistanceException {
+    public Rectangle(Point point1, Point point2, Point point3, Point point4) throws DistanceException {
         super(point1,point2,point3,point4);
 
-        if(point1.getDistance(point2) == 0 || point2.getDistance(point3) == 0
-                || point3.getDistance(point1) == 0 || point3.getDistance(point4) == 0) {
+        ArrayList<Double> dist = new ArrayList<>();
+        double max_dist = -1;
+        int max_id = 0;
 
-            throw new SameCoordinateException("Invalid rectangle: cannot have 2 points with same coordinate");
+        // get all distances from first point
+        for(int i = 1; i < 4; i++) {
+            double distance = points.get(0).getDistance(points.get(i));
+            if(!dist.contains(distance)){
+                dist.add(distance);
+                if(distance > max_dist){
+                    max_dist = distance;
+                    max_id = i;
+                }
+            }
         }
 
-        double distance1 = point1.getDistance(point2);
-        double distance2 = point2.getDistance(point3);
-        double distance3 = point3.getDistance(point4);
-        double distance4 = point4.getDistance(point1);
-        if((distance3 != distance1 || distance3 != distance2)
-                || (distance4 != distance1 || distance4 != distance2)){
+        //get adjacent points
+        ArrayList<Point> adjPoint = new ArrayList<>();
+        for(int i = 1; i < 4; i++) {
+            if(i != max_id){
+                adjPoint.add(points.get(i));
+            }
+        }
+        double dist1 = points.get(0).getDistance(adjPoint.get(0));
+        double dist1opp = points.get(max_id).getDistance(adjPoint.get(1));
+        double dist2 = points.get(0).getDistance(adjPoint.get(1));
+        double dist2opp = points.get(max_id).getDistance(adjPoint.get(0));
 
+        if(dist1 != dist1opp || dist2 != dist2opp) {
             throw new DistanceException("Invalid rectangle: cannot have more than 2 different distances");
         }
 
@@ -47,10 +63,12 @@ public class Rectangle extends Polygon {
      */
     @Override
     public double getPerimeter() {
-        double lentgh = points.get(0).getDistance(points.get(1));
-        double witdh = points.get(1).getDistance(points.get(2));
-
-        return (lentgh + witdh) * 2;
+        ArrayList<Double> dist = new ArrayList<>();
+        for(int i = 1; i < 4; i++){
+            dist.add(points.get(0).getDistance(points.get(i)));
+        }
+        dist.sort(Double::compareTo);
+        return (dist.get(0) + dist.get(1)) * 2;
     }
 
     /**
@@ -59,9 +77,11 @@ public class Rectangle extends Polygon {
      */
     @Override
     public double getArea() {
-        double lentgh = points.get(0).getDistance(points.get(1));
-        double witdh = points.get(1).getDistance(points.get(2));
-
-        return (lentgh * witdh);
+        ArrayList<Double> dist = new ArrayList<>();
+        for(int i = 1; i < 4; i++){
+            dist.add(points.get(0).getDistance(points.get(i)));
+        }
+        dist.sort(Double::compareTo);
+        return dist.get(0) * dist.get(1);
     }
 }
