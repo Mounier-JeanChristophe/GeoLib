@@ -4,7 +4,7 @@ import Shapes2D.Exceptions.NegativeRadiusException;
 
 /**
  * Circle class. A class to create a circle and process calculations on it.
- * @author Kilian QUITTARD
+ * @author Kilian QUITTARD, JC MOUNIER
  */
 
 public class Circle {
@@ -48,4 +48,9 @@ public class Circle {
         return Math.PI * Math.pow(radius,2);
     }
 
+    /**
+     * Calculate the diameter of the circle
+     * @return The diameter of the circle
+     */
+    public double getDiameter(){return radius * 2;}
 }

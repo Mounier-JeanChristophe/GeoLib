@@ -1,15 +1,21 @@
+package Shapes2D;
+
+import Shapes2D.Exceptions.NegativeRadiusException;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThrows;
+
 public class CircleTest {
 
     private Circle circle1, circle2, circle3;
     private final double delta = 0.01;
+    Point point;
 
     @Before
-    public void init(){
-        Point point = new Point(0,0);
+    public void init() throws NegativeRadiusException {
+        point = new Point(0,0);
         circle1 = new Circle(point, 5);
         circle2 = new Circle(point, 0.5);
         circle3 = new Circle(point, 14.158);
@@ -37,7 +43,7 @@ public class CircleTest {
     }
 
     @Test
-    public void shouldRaiseCircleException(){
-        //to implement
+    public void shouldRaiseNegativeRadiusException(){
+        assertThrows(NegativeRadiusException.class, () -> new Circle(point,-1));
     }
 }

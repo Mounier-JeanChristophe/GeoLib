@@ -1,7 +1,11 @@
+package Shapes2D;
+
+import Shapes2D.Exceptions.DistanceException;
+import Shapes2D.Exceptions.SameCoordinateException;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class SquareTest {
 
@@ -9,7 +13,7 @@ public class SquareTest {
     Square square;
 
     @Before
-    public void init(){
+    public void init() throws DistanceException {
         p1 = new Point(0,0);
         p2 = new Point(0,0.158);
         p3 = new Point(-0.158,0);
@@ -28,7 +32,9 @@ public class SquareTest {
     }
 
     @Test
-    public void shouldRaiseSquare(){
-        // to implement
+    public void shouldRaiseDistanceException(){
+        Point p = new Point(2,3);
+        assertThrows(DistanceException.class, () -> new Square(p,p1,p2,p3));
+        assertThrows(DistanceException.class, () -> new Rectangle(p1,p,p2,p3));
     }
 }
