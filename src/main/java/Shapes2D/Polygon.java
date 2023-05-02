@@ -1,5 +1,7 @@
 package Shapes2D;
 
+import Vectors.Vector2;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,16 +15,16 @@ public class Polygon {
     /**
      * List of points that compose the polygon.
      */
-    protected List<Point> points;
+    protected List<Vector2> vectors;
 
     /**
      * Constructor for creating a polygon.
-     * @param points Shapes2D.Points that composed the polygon.
+     * @param vector2s Shapes2D.Points that composed the polygon.
      */
-    public Polygon(Point... points){
-        this.points = new ArrayList<>();
-        for(Point point : points){
-            this.points.add(point);
+    public Polygon(Vector2... vector2s){
+        this.vectors = new ArrayList<>();
+        for(Vector2 vector2 : vector2s){
+            this.vectors.add(vector2);
         }
     }
 
@@ -32,11 +34,11 @@ public class Polygon {
      */
     public double getPerimeter(){
         double perimeter = 0.0;
-        int size = points.size();
+        int size = vectors.size();
         for(int i = 0; i < size-1; i++){
-            perimeter += points.get(i).getDistance(points.get(i+1));
+            perimeter += vectors.get(i).getDistance(vectors.get(i+1));
         }
-        perimeter += points.get(size-1).getDistance(points.get(0));
+        perimeter += vectors.get(size-1).getDistance(vectors.get(0));
         return perimeter;
     }
 
@@ -45,14 +47,14 @@ public class Polygon {
      * @return The area of the polygon.
      */
     public double getArea(){
-        int n = points.size();
+        int n = vectors.size();
         double area = 0.0;
 
         // Iterate through each vertex of the polygon
         for (int i = 0; i < n; i++) {
             // Get the current and next vertices
-            Point current = points.get(i);
-            Point next = points.get((i + 1) % n);
+            Vector2 current = vectors.get(i);
+            Vector2 next = vectors.get((i + 1) % n);
 
             // Add the cross product of the current and next vertices to the total area
             area += current.getX() * next.getY() - next.getX() * current.getY();

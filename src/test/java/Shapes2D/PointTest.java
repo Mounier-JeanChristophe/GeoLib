@@ -1,5 +1,6 @@
 package Shapes2D;
 
+import Vectors.Vector2;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -7,15 +8,15 @@ import static org.junit.Assert.assertEquals;
 
 public class PointTest {
 
-    Point p1, p2, p3, p4;
+    Vector2 p1, p2, p3, p4;
     Double delta = 0.01;
 
     @Before
     public void init(){
-        p1 = new Point(1, 2);
-        p2 = new Point(-3, 5);
-        p3 = new Point(3, -2);
-        p4 = new Point(-7, -4);
+        p1 = new Vector2(1, 2);
+        p2 = new Vector2(-3, 5);
+        p3 = new Vector2(3, -2);
+        p4 = new Vector2(-7, -4);
     }
 
     @Test

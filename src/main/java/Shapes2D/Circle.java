@@ -1,6 +1,8 @@
+
 package Shapes2D;
 
 import Shapes2D.Exceptions.NegativeRadiusException;
+import Vectors.Vector2;
 
 /**
  * Circle class. A class to create a circle and process calculations on it.
@@ -12,7 +14,7 @@ public class Circle {
     /**
      * Center point of the circle.
      */
-    private Point centerPoint;
+    private Vector2 centerPoint;
 
     /**
      * Radius of the circle.
@@ -24,7 +26,7 @@ public class Circle {
      * @param centerPoint Center point of the circle.
      * @param radius Radius point of the circle.
      */
-    public Circle(Point centerPoint, double radius) throws NegativeRadiusException {
+    public Circle(Vector2 centerPoint, double radius) throws NegativeRadiusException {
         if(radius < 0){
             throw new NegativeRadiusException("Cannot have a negative radius.");
         }

@@ -1,6 +1,7 @@
 package Shapes2D;
 
 import Shapes2D.Exceptions.NegativeRadiusException;
+import Vectors.Vector2;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,11 +12,11 @@ public class CircleTest {
 
     private Circle circle1, circle2, circle3;
     private final double delta = 0.01;
-    Point point;
+    Vector2 point;
 
     @Before
     public void init() throws NegativeRadiusException {
-        point = new Point(0,0);
+        point = new Vector2(0,0);
         circle1 = new Circle(point, 5);
         circle2 = new Circle(point, 0.5);
         circle3 = new Circle(point, 14.158);

@@ -1,9 +1,7 @@
 package Shapes2D;
 
 import Shapes2D.Exceptions.SameCoordinateException;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+import Vectors.Vector2;
 
 /**
  * Triangle class. A class to create a triangle and process calculations on it.
@@ -15,13 +13,13 @@ public class Triangle extends Polygon {
 
     /**
      * Constructor for creating a triangle.
-     * @param point1 Shapes2D.Point of the triangle.
-     * @param point2 Shapes2D.Point of the triangle.
-     * @param point3 Shapes2D.Point of the triangle.
+     * @param vector1 Shapes2D.Vector2 of the triangle.
+     * @param vector2 Shapes2D.Vector2 of the triangle.
+     * @param vector3 Shapes2D.Vector2 of the triangle.
      */
-    public Triangle(Point point1, Point point2, Point point3) throws SameCoordinateException {
-        super(point1,point2,point3);
-        if(point1.getDistance(point2) == 0 || point2.getDistance(point3) == 0 || point3.getDistance(point1) == 0){
+    public Triangle(Vector2 vector1, Vector2 vector2, Vector2 vector3) throws SameCoordinateException {
+        super(vector1, vector2, vector3);
+        if(vector1.getDistance(vector2) == 0 || vector2.getDistance(vector3) == 0 || vector3.getDistance(vector1) == 0){
             throw new SameCoordinateException("Cannot have 2 points with same coordinate");
         }
     }
@@ -32,7 +30,7 @@ public class Triangle extends Polygon {
      */
     @Override
     public double getArea() {
-        double base = points.get(0).getDistance(points.get(1));
+        double base = vectors.get(0).getDistance(vectors.get(1));
         double height = findHeight();
         return (base * height) /2;
     }
@@ -42,13 +40,13 @@ public class Triangle extends Polygon {
      * @return The height of the triangle.
      */
     private double findHeight() {
-        Point point1 = points.get(0);
-        Point point2 = points.get(1);
-        Point point3 = points.get(2);
+        Vector2 vector21 = vectors.get(0);
+        Vector2 vector22 = vectors.get(1);
+        Vector2 vector23 = vectors.get(2);
 
-        double a = point2.getY() - point1.getY();
-        double b = point1.getX() - point2.getX();
-        double c = -a * point1.getX() - b * point1.getY();
-        return Math.abs((a * point3.getX() + b * point3.getY() + c) / Math.sqrt(a * a + b * b));
+        double a = vector22.getY() - vector21.getY();
+        double b = vector21.getX() - vector22.getX();
+        double c = -a * vector21.getX() - b * vector21.getY();
+        return Math.abs((a * vector23.getX() + b * vector23.getY() + c) / Math.sqrt(a * a + b * b));
     }
 }

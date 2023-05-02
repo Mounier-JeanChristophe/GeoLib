@@ -1,6 +1,7 @@
 import Shapes2D.Exceptions.DistanceException;
 import Shapes2D.Exceptions.SameCoordinateException;
-import Shapes2D.Point;
+import Vectors.Vector2;
+import Vectors.Vector3;
 import Shapes2D.Rectangle;
 import Shapes2D.Square;
 import Shapes2D.Triangle;
@@ -9,16 +10,16 @@ public class Main {
 
     public static void main(String[] args) throws SameCoordinateException, DistanceException {
 
-        Point point1 = new Point(0,0);
-        Point point2 = new Point(3,0);
-        Point point3 = new Point(3,3);
+        Vector2 vector21 = new Vector2(0,0);
+        Vector2 vector22 = new Vector2(3,0);
+        Vector2 vector23 = new Vector2(3,3);
 
-        Triangle triangle = new Triangle(point2,point3,point1);
+        Triangle triangle = new Triangle(vector22, vector23, vector21);
         System.out.println("Perimeter = "+triangle.getPerimeter());
 
-        Point point4 = new Point(0,3);
-        Rectangle rectangle = new Rectangle(point1,point2,point3,point4);
-        Square square = new Square(point1,point2,point3,point4);
+        Vector2 vector24 = new Vector2(0,3);
+        Rectangle rectangle = new Rectangle(vector21, vector22, vector23, vector24);
+        Square square = new Square(vector21, vector22, vector23, vector24);
 
     }
 

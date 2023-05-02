@@ -1,28 +1,28 @@
-package Shapes2D;
+package Vectors;
 
 /**
  * Point class. A class to create a point and process calculations on it.
  * @author Kilian QUITTARD
  */
 
-public class Point {
+public class Vector2 {
 
     /**
      * Value on x-axis.
      */
-    private double x;
+    protected double x;
 
     /**
      * Value on y-axis.
      */
-    private double y;
+    protected double y;
 
     /**
-     * Radius of the circle
+     * Constructor for creating a Vector2D
      * @param x Value on x-axis.
      * @param y Value on y-axis.
      */
-    public Point(double x, double y){
+    public Vector2(double x, double y){
         this.x = x;
         this.y = y;
     }
@@ -45,11 +45,11 @@ public class Point {
 
     /**
      * Calculate the distance between this point and another.
-     * @param point The second point for calculating the distance.
+     * @param vector The second vector for calculating the distance.
      * @return The distance between the two points.
      */
-    public double getDistance(Point point){
-        return Math.sqrt(Math.pow(point.getY()-y,2) + Math.pow(point.getX()-x,2));
+    public double getDistance(Vector2 vector){
+        return Math.sqrt(Math.pow(vector.getY()-y,2) + Math.pow(vector.getX()-x,2));
     }
 
 }

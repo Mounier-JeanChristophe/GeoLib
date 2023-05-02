@@ -2,6 +2,7 @@ package Shapes2D;
 
 import Shapes2D.Exceptions.DistanceException;
 import Shapes2D.Exceptions.SameCoordinateException;
+import Vectors.Vector2;
 
 import java.util.ArrayList;
 
@@ -19,8 +20,8 @@ public class Square extends Rectangle{
      * @param point3 Shapes2D.Point of the square.
      * @param point4 Shapes2D.Point of the square.
      */
-    public Square(Point point1, Point point2, Point point3, Point point4) throws DistanceException {
-         super(point1, point2, point3, point4);
+    public Square(Vector2 point1, Vector2 point2, Vector2 point3, Vector2 point4) throws DistanceException {
+        super(point1, point2, point3, point4);
 
         ArrayList<Double> dist = new ArrayList<>();
         double max_dist = -1;
@@ -28,7 +29,7 @@ public class Square extends Rectangle{
 
         // get all distances from first point
         for(int i = 1; i < 4; i++) {
-            double distance = points.get(0).getDistance(points.get(i));
+            double distance = vectors.get(0).getDistance(vectors.get(i));
             if(!dist.contains(distance)){
                 dist.add(distance);
                 if(distance > max_dist){
@@ -39,7 +40,7 @@ public class Square extends Rectangle{
         }
         // get all distances from diagonal point
         for(int i = 0; i < 4; i++) {
-            double distance = points.get(max_id).getDistance(points.get(i));
+            double distance = vectors.get(max_id).getDistance(vectors.get(i));
             if (!dist.contains(distance) && max_id != i) {
                 dist.add(distance);
             }
@@ -55,7 +56,7 @@ public class Square extends Rectangle{
      */
     @Override
     public double getPerimeter() {
-        double lentgh = points.get(0).getDistance(points.get(1));
+        double lentgh = vectors.get(0).getDistance(vectors.get(1));
         return lentgh * 4;
     }
 
@@ -65,7 +66,7 @@ public class Square extends Rectangle{
      */
     @Override
     public double getArea() {
-        double lentgh = points.get(0).getDistance(points.get(1));
+        double lentgh = vectors.get(0).getDistance(vectors.get(1));
         return (lentgh * lentgh);
     }
 }

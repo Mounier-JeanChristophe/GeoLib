@@ -2,7 +2,7 @@ Liste des fonctionnalités:
 
     - Possibilité de création de formes en 2D (Carré, Rectangle...)
     - Calculs de périmètre et de surface pour chaque formes
-    - Calcul de distance entre deux points
+    - Calcul de distance entre deux vector2s
     - Gestion des exceptions (rayon d'un cercle négatif)
     - Possibilité de créer des formes 3D
     - Calculs trigonométriques
