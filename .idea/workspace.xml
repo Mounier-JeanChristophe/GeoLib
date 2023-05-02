@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb9cbb8e-e996-4fdd-98de-5fee2d61bbbc" name="Changes" comment="Ajout des classes de Vecteur et de Shapes3D">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Exceptions/DistanceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Exceptions/NegativeRadiusException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Exceptions/SameCoordinateException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Polygon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Vectors/Vector2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Vectors/Vector3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/java-project-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/DistanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/NegativeRadiusException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/SameCoordinateException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/class-use/DistanceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/class-use/NegativeRadiusException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/class-use/SameCoordinateException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Point.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Polygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Rectangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Square.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Triangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Point.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Polygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Rectangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Square.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Triangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/class-use/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/element-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/jquery-ui.overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/jqueryUI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/member-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/module-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/resources/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/resources/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/tag-search-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/apidocs/type-search-index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OYLEkrUqumdVzCIB07o9G5Hc0t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3873563" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/2DShapes" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn javadoc:javadoc" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GeoLib" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb9cbb8e-e996-4fdd-98de-5fee2d61bbbc" name="Changes" comment="" />
+      <created>1681732459152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681732459152</updated>
+      <workItem from="1681732461671" duration="5465000" />
+      <workItem from="1681988692815" duration="3419000" />
+      <workItem from="1681994613370" duration="4405000" />
+      <workItem from="1682058603557" duration="9820000" />
+      <workItem from="1682075010099" duration="10115000" />
+      <workItem from="1683009705861" duration="668000" />
+    </task>
+    <task id="LOCAL-00001" summary="Classes de base (formes, points)">
+      <created>1681988720216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681988720216</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajout de la classe Polygon et des Exceptions">
+      <created>1682063165093</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682063165093</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout de la classe Polygon et des Exceptions">
+      <created>1682063776359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682063776359</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajout des classes de Vecteur et de Shapes3D">
+      <created>1683010172461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683010172461</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Classes de base (formes, points)" />
+    <MESSAGE value="Ajout de la classe Polygon et des Exceptions" />
+    <MESSAGE value="Ajout des classes de Vecteur et de Shapes3D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des classes de Vecteur et de Shapes3D" />
+  </component>
+</project>
