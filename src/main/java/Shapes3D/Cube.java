@@ -1,7 +1,7 @@
 package Shapes3D;
 
 /**
- * Rectangle class. A class to create a cube and process calculations on it.
+ * Cube class. A class to create a cube and process calculations on it.
  * @author Kilian QUITTARD
  */
 

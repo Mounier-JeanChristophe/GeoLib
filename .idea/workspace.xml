@@ -4,98 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb9cbb8e-e996-4fdd-98de-5fee2d61bbbc" name="Changes" comment="Workspace.xml">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Geolib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Exceptions/DistanceException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Exceptions/NegativeRadiusException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Exceptions/SameCoordinateException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Polygon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Square.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Triangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Vectors/Vector2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Vectors/Vector3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/java-project-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/DistanceException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/NegativeRadiusException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/SameCoordinateException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/class-use/DistanceException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/class-use/NegativeRadiusException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/class-use/SameCoordinateException.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Exceptions/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Point.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Polygon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Rectangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Square.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/Triangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Point.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Polygon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Rectangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Square.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/class-use/Triangle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/Shapes2D/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/class-use/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/jquery-ui.overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/site/apidocs/type-search-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes2D/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes2D/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes2D/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes2D/Square.java" afterDir="false" />
+    <list default="true" id="fb9cbb8e-e996-4fdd-98de-5fee2d61bbbc" name="Changes" comment="Finalisation des classes cubes, cylindres et pyramides.">
       <change beforePath="$PROJECT_DIR$/src/main/java/Shapes3D/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes3D/Cube.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shapes3D/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes3D/Cylinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shapes3D/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes3D/Pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vectors/Vector2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vectors/Vector2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vectors/Vector3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vectors/Vector3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +99,7 @@
       <workItem from="1683009705861" duration="3667000" />
       <workItem from="1683187168482" duration="63000" />
       <workItem from="1683268597882" duration="2630000" />
-      <workItem from="1683271252045" duration="1053000" />
+      <workItem from="1683271252045" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="Classes de base (formes, points)">
       <created>1681988720216</created>
@@ -222,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683010387130</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finalisation des classes cubes, cylindres et pyramides.">
+      <created>1683272419077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683272419078</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +177,7 @@
     <MESSAGE value="Ajout de la classe Polygon et des Exceptions" />
     <MESSAGE value="Ajout des classes de Vecteur et de Shapes3D" />
     <MESSAGE value="Workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace.xml" />
+    <MESSAGE value="Finalisation des classes cubes, cylindres et pyramides." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalisation des classes cubes, cylindres et pyramides." />
   </component>
 </project>

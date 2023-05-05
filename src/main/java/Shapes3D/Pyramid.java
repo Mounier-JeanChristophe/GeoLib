@@ -5,7 +5,7 @@ import Vectors.Vector2;
 import Vectors.Vector3;
 
 /**
- * Rectangle class. A class to create a pyramid and process calculations on it.
+ * Pyramid class. A class to create a pyramid and process calculations on it.
  * @author Kilian QUITTARD
  */
 

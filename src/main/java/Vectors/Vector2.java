@@ -1,7 +1,7 @@
 package Vectors;
 
 /**
- * Point class. A class to create a point and process calculations on it.
+ * Vector2 class. A class to create a point and process calculations on it.
  * @author Kilian QUITTARD
  */
 
