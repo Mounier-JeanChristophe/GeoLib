@@ -3,8 +3,12 @@ Shapes3D/Cylinder.class
 Shapes2D/Circle.class
 Shapes2D/Polygon.class
 Shapes2D/Triangle.class
+Shapes2D/Exceptions/DistanceException.class
+Shapes2D/Exceptions/NegativeRadiusException.class
 Shapes3D/IShape.class
-Main.class
 Shapes2D/Square.class
+Shapes2D/Exceptions/SameCoordinateException.class
+Vectors/Vector2.class
+Vectors/Vector3.class
 Shapes3D/Cube.class
 Shapes2D/Rectangle.class
