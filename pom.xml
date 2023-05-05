@@ -22,7 +22,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>GeoLib</groupId>
-    <artifactId>java-project</artifactId>
+    <artifactId>GeoLib</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
     <name>GeoLib</name>

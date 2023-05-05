@@ -66,4 +66,7 @@ public class Polygon {
         return area;
     }
 
+    public List<Vector2> getVectors() {
+        return vectors;
+    }
 }

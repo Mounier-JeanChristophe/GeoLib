@@ -2,6 +2,11 @@ package Shapes3D;
 
 import Vectors.Vector3;
 
+/**
+ * Rectangle class. A class to create a cylinder and process calculations on it.
+ * @author Kilian QUITTARD
+ */
+
 public class Cylinder implements IShape {
 
     /**

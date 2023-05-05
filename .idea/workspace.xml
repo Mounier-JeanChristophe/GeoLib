@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb9cbb8e-e996-4fdd-98de-5fee2d61bbbc" name="Changes" comment="Ajout des classes de Vecteur et de Shapes3D">
+    <list default="true" id="fb9cbb8e-e996-4fdd-98de-5fee2d61bbbc" name="Changes" comment="Workspace.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Geolib.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Circle.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/Shapes2D/Exceptions/DistanceException.class" afterDir="false" />
@@ -85,6 +86,16 @@
       <change afterPath="$PROJECT_DIR$/target/site/apidocs/stylesheet.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/site/apidocs/tag-search-index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/site/apidocs/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes2D/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes2D/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes2D/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes2D/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes3D/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes3D/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes3D/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes3D/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes3D/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes3D/Pyramid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +113,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Shapes2D/Triangle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Shapes2D/Polygon.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Shapes2D/Rectangle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Shapes2D/Square.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Shapes3D/IShape.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Shapes3D/Cylinder.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Shapes3D/Pyramid.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Vectors/Vector2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Shapes3D/Cube.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Vectors/Vector3.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2OYLEkrUqumdVzCIB07o9G5Hc0t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -113,9 +138,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/GeoLib-1.0.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3873563" />
   </component>
@@ -157,7 +182,10 @@
       <workItem from="1681994613370" duration="4405000" />
       <workItem from="1682058603557" duration="9820000" />
       <workItem from="1682075010099" duration="10115000" />
-      <workItem from="1683009705861" duration="668000" />
+      <workItem from="1683009705861" duration="3667000" />
+      <workItem from="1683187168482" duration="63000" />
+      <workItem from="1683268597882" duration="2630000" />
+      <workItem from="1683271252045" duration="1053000" />
     </task>
     <task id="LOCAL-00001" summary="Classes de base (formes, points)">
       <created>1681988720216</created>
@@ -187,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683010172461</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Workspace.xml">
+      <created>1683010387130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683010387130</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +255,7 @@
     <MESSAGE value="Classes de base (formes, points)" />
     <MESSAGE value="Ajout de la classe Polygon et des Exceptions" />
     <MESSAGE value="Ajout des classes de Vecteur et de Shapes3D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout des classes de Vecteur et de Shapes3D" />
+    <MESSAGE value="Workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace.xml" />
   </component>
 </project>

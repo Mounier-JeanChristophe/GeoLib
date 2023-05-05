@@ -3,6 +3,7 @@ package Shapes2D;
 import Shapes2D.Exceptions.DistanceException;
 import Shapes2D.Exceptions.SameCoordinateException;
 import Vectors.Vector2;
+import Vectors.Vector3;
 
 import java.util.ArrayList;
 
@@ -68,5 +69,17 @@ public class Square extends Rectangle{
     public double getArea() {
         double lentgh = vectors.get(0).getDistance(vectors.get(1));
         return (lentgh * lentgh);
+    }
+
+    public Vector2 getCenter() {
+        double sumX = 0;
+        double sumY = 0;
+        for (Vector2 vertex : vectors) {
+            sumX += vertex.getX();
+            sumY += vertex.getY();
+        }
+        double centerX = sumX / 4;
+        double centerY = sumY / 4;
+        return new Vector2(centerX, centerY);
     }
 }
